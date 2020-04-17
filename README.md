@@ -2,7 +2,7 @@
 Grupo: x
 Integrantes:
 Alvaro Martino
-
+Franco Cortina
 
 Aplicación utilizada en la cursada 2020 de Ingenieria de Software. UTN-FRLP
 
