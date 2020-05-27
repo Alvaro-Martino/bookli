@@ -165,7 +165,7 @@ describe('Detail view', () => {
             .url(BASE_URL)
             .waitForElementVisible('body')
             .waitForElementVisible('.search__input')
-            .attributeContains( '.search__input' , 'placeholder' , 'buscar')
+            .assert.attributeContains( '.search__input' , 'placeholder' , 'Buscar')
     });
 
 });
