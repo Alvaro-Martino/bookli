@@ -159,6 +159,15 @@ describe('Detail view', () => {
             .element('.book__actions [data-ref=removeFromFinish]')
             .text.to.equal('Volver a leer');
     });
+
+    test('El input debe tener placeholder buscar', browser => {
+        browser
+            .url(BASE_URL)
+            .waitForElementVisible('body')
+            .waitForElementVisible('.search__input')
+            .assert.attributeContains( '.search__input' , 'placeholder' , 'Buscar')
+    });
+
 });
 //========== Clickeando el icono me tendria que devovler a la pagina principal=======//
  test(' Clickeando el icono me tendria que devolver a la pagina principal', browser => {
