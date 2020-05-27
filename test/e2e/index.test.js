@@ -159,4 +159,13 @@ describe('Detail view', () => {
             .element('.book__actions [data-ref=removeFromFinish]')
             .text.to.equal('Volver a leer');
     });
+
+    test('El input debe tener placeholder buscar', browser => {
+        browser
+            .url(BASE_URL)
+            .waitForElementVisible('body')
+            .waitForElementVisible('.search__input')
+            .attributeContains( '.search__input' , 'placeholder' , 'buscar')
+    });
+
 });
