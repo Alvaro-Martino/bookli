@@ -160,3 +160,12 @@ describe('Detail view', () => {
             .text.to.equal('Volver a leer');
     });
 });
+//========== Clickeando el icono me tendria que devovler a la pagina principal=======//
+ test('Deberia poder encontrar un libro por titulo', browser => {
+        browser
+            .url(BASE_URL + '/detail/1')
+            .waitForElementVisible('body')
+            .waitForElementVisible('body > header > div.brand > a')
+            .click('body > header > div.brand > a')
+            .assert.urlEquals(BASE_URL + '/');
+        });
