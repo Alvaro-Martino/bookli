@@ -161,7 +161,7 @@ describe('Detail view', () => {
     });
 });
 //========== Clickeando el icono me tendria que devovler a la pagina principal=======//
- test('Deberia poder encontrar un libro por titulo', browser => {
+ test(' Clickeando el icono me tendria que devolver a la pagina principal', browser => {
         browser
             .url(BASE_URL + '/detail/1')
             .waitForElementVisible('body')
