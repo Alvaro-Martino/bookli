@@ -1,4 +1,10 @@
 # Bookli
+Grupo: x
+Integrantes:
+Alvaro Martino
+Franco Cortina
+
+version: v1.2.0 "Se aplican todas las actividades anteriores a la 3"
 
 Aplicación utilizada en la cursada 2020 de Ingenieria de Software. UTN-FRLP
 
