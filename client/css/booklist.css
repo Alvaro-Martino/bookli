@@ -18,3 +18,5 @@
 .booklist--empty img {
     max-width: 300px;
 }
+a{text-decoration: none;color: black;}
+.boton{font-size: 25px;width: 230px;}
