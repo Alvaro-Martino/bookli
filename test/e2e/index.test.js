@@ -178,3 +178,15 @@ describe('Detail view', () => {
             .click('body > header > div.brand > a')
             .assert.urlEquals(BASE_URL + '/');
         });
+
+
+        
+        //========== Clickeando el boton me tendria que llevar  a amazon=======//
+        test(' Clickeando el boton me tendria que llevar  a amazon', browser => {
+            browser
+                .url(BASE_URL + '/')
+                .waitForElementVisible('body')
+                .waitForElementVisible('body > main > div > div.filters-container > form > a > input')
+                .click('body > main > div > div.filters-container > form > a > input')
+                .assert.urlEquals('https://www.amazon.com/b?node=283155');
+            });
