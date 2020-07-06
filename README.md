@@ -6,6 +6,8 @@ Franco Cortina
 
 version: v1.2.0 "Se aplican todas las actividades anteriores a la 3"
 
+version: v1.2.1 "Se aplican los cambios del hotfix/change_placeholder que cambian el placeholder del imput de busqueda"
+
 Aplicación utilizada en la cursada 2020 de Ingenieria de Software. UTN-FRLP
 
 ## Dependencias
