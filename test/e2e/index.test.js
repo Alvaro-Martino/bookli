@@ -160,12 +160,12 @@ describe('Detail view', () => {
             .text.to.equal('Volver a leer');
     });
 
-    test('El input debe tener placeholder buscar', browser => {
+    test('El input debe tener placeholder _Buscar libro_', browser => {
         browser
             .url(BASE_URL)
             .waitForElementVisible('body')
             .waitForElementVisible('.search__input')
-            .assert.attributeContains( '.search__input' , 'placeholder' , 'Buscar')
+            .assert.attributeContains( '.search__input' , 'placeholder' , 'Buscar libro')
     });
 
 });
