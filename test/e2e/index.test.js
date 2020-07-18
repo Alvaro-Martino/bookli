@@ -179,7 +179,12 @@ describe('Detail view', () => {
             .assert.urlEquals(BASE_URL + '/');
         });
 
-
+        test('Deberia tener el fondo de color celeste', browser => {
+            browser
+                .url(BASE_URL)
+                .waitForElementVisible('body')
+                .assert.cssProperty('.app-layout','background-color','rgba(0, 255, 255, 1)');
+        });       
         
         //========== Clickeando el boton me tendria que llevar  a amazon=======//
         test(' Clickeando el boton me tendria que llevar  a amazon', browser => {
