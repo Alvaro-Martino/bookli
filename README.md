@@ -14,6 +14,8 @@ version: v1.4.0 "Vuelvo a realizar el primer release de la actividad."
 
 version: v1.4.1 "realizo el hotfix/#2 que cambia el color del fondo al sitio"
 
+version: v1.5.0 "se le aplico un cambio al color del borde de las cards, con su respectivo test"
+
 Aplicación utilizada en la cursada 2020 de Ingenieria de Software. UTN-FRLP
 
 ## Dependencias
