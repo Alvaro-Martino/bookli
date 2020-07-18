@@ -12,6 +12,8 @@ version: v1.3.0 "Se aplican los cambios correspondientes a la actividad 3"
 
 version: v1.4.0 "Vuelvo a realizar el primer release de la actividad."
 
+version: v1.4.1 "realizo el hotfix/#2 que cambia el color del fondo al sitio"
+
 Aplicación utilizada en la cursada 2020 de Ingenieria de Software. UTN-FRLP
 
 ## Dependencias
