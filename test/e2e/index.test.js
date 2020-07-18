@@ -195,3 +195,11 @@ describe('Detail view', () => {
                 .click('body > main > div > div.filters-container > form > a > input')
                 .assert.urlEquals('https://www.amazon.com/b?node=283155');
             });
+
+            //====El color de las cards deberia ser Red====//
+            test('cambio color del borde', browser => {
+                browser
+                    .url(BASE_URL + '/')
+                    .waitForElementVisible('.card')
+                    .assert.cssProperty('.card','border-color',"rgb(255, 0, 0)")
+                });
